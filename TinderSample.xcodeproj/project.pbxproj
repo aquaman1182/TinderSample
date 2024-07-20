@@ -13,6 +13,8 @@
 		E1FFAE102C4B656000C23D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FFAE0F2C4B656000C23D5A /* Preview Assets.xcassets */; };
 		E1FFAE1E2C4B65ED00C23D5A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFAE1D2C4B65ED00C23D5A /* CardView.swift */; };
 		E1FFAE212C4B660E00C23D5A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFAE202C4B660E00C23D5A /* MainTabView.swift */; };
+		E1FFAE252C4B78F500C23D5A /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFAE242C4B78F500C23D5A /* SwipeActionIndicatorView.swift */; };
+		E1FFAE272C4B7ABB00C23D5A /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFAE262C4B7ABB00C23D5A /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E1FFAE0F2C4B656000C23D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1FFAE1D2C4B65ED00C23D5A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E1FFAE202C4B660E00C23D5A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E1FFAE242C4B78F500C23D5A /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		E1FFAE262C4B7ABB00C23D5A /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				E1FFAE1D2C4B65ED00C23D5A /* CardView.swift */,
+				E1FFAE242C4B78F500C23D5A /* SwipeActionIndicatorView.swift */,
+				E1FFAE262C4B7ABB00C23D5A /* UserInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1FFAE0B2C4B655F00C23D5A /* ContentView.swift in Sources */,
+				E1FFAE252C4B78F500C23D5A /* SwipeActionIndicatorView.swift in Sources */,
 				E1FFAE1E2C4B65ED00C23D5A /* CardView.swift in Sources */,
+				E1FFAE272C4B7ABB00C23D5A /* UserInfoView.swift in Sources */,
 				E1FFAE092C4B655F00C23D5A /* TinderSampleApp.swift in Sources */,
 				E1FFAE212C4B660E00C23D5A /* MainTabView.swift in Sources */,
 			);
